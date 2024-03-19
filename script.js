@@ -6,7 +6,7 @@ for(var i = 1;i<=96;i++){
 }
 document.querySelector(".panel_bottom").innerHTML = clutter;
 }
-var timer = 6;
+var timer = 60;
 function runTimer (){
    var timerint =  setInterval(function(){
         if (timer>0){
